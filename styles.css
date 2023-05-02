@@ -1,16 +1,23 @@
-
-/* Your CSS Code here. */
-
-.holder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.holder{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+.abc{
+    width: 100px;
+    height: 100px;
+    color: black;
 }
 
-.item {
-  flex-basis: 18%;
-  background-color: #ccc;
-  margin: 10px;
-  text-align: center;
-  padding: 20px;
+.div-1{
+    background-color: red;
 }
+
+.div-2{
+    background-color: blue;
+}
+
+.div-3{
+    background-color: green;
